@@ -85,8 +85,8 @@ d3.json('nygeo.json').then(function(data) {
                     .attr("opacity",1)
                     .transition()
                     .duration( 1000 )
-                    .attr("cx", 800)
-                    .attr("cy", 600)
+                    .attr("cx", 0)
+                    .attr("cy", 0)
                     .attr("opacity", 0 )
                     .on("end",function(){
                     d3.select(this).remove();
